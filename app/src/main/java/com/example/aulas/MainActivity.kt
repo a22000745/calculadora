@@ -60,13 +60,15 @@ class MainActivity : AppCompatActivity() {
         binding.textVisor.append(symbol)
     }
     private fun onClickEquals(){
+        var resultado = "${binding.textVisor.text}="
         Log.i(TAG,"Click no botão =")
         var expression = ExpressionBuilder(
             binding.textVisor.text.toString()
         ).build()
-        operations.add(binding.textVisor.text.toString())
-        adapter.updateItems(operations)
         binding.textVisor.text = expression.evaluate().toString()
+        resultado += binding.textVisor.text
+        operations.add(resultado)
+        adapter.updateItems(operations)
         Log.i(TAG, "O resultado é ${binding.textVisor.text}")
 
     }
