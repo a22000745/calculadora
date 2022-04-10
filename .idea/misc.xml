@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/layout-land/fragment_calculator.xml" value="0.23809523809523808" />
         <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/layout/fragment_calculator.xml" value="0.22" />
         <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/layout/item_expression.xml" value="0.1" />
+        <entry key="..\:/Users/LEGION/StudioProjects/Aulas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.166" />
       </map>
     </option>
   </component>
